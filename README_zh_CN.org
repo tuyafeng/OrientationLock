@@ -1,0 +1,41 @@
+#+title: 方向锁定
+#+date: <2024-05-27 Mon 19:53>
+
+一个帮助锁定屏幕方向的开源应用，适用于 Android 5.0+。
+
+** 预览
+
+#+attr_org: :width 300px
+#+attr_html: :width 50% :align center :style max-width:300px;border-radius:8px;
+[[file:art/screenshot01_zh_cn.png]]
+
+** 特性
+
+- 极简轻量：体积小于 100KB；
+- 设计简洁：易于使用且直观的界面；
+- 开源：无依赖，无广告，无追踪器。
+
+** 为什么开发方向锁定？
+
+当你使用 Android 平板时，可能会发现部分应用不支持横屏或是特定方向。这真的很困扰我。我尝试过市面上的一些锁定屏幕方向的应用，它们功能太多，而我只需要它帮我锁定设备的屏幕方向，因此我决定自己写一个。
+
+锁定屏幕方向的实现原理十分简单，就是使用悬浮窗绘制一个指定方向的 view。这只是一个简单的应用，我不希望它包含过多内容，所以我使用原生方法实现，没有任何第三方库。这很酷，不是吗？
+
+** 许可证
+
+#+begin_quote
+Copyright (C) 2024 Yafeng Tu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#+end_quote

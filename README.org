@@ -1,0 +1,43 @@
+#+title: Orientation Lock
+#+date: <2024-05-27 Mon 19:53>
+
+[[./README_zh_CN.org][简体中文]]
+
+An open source app to lock the screen orientation, for Android 5.0+.
+
+** Preview
+
+#+attr_org: :width 300px
+#+attr_html: :width 50% :align center :style max-width:300px;border-radius:8px;
+[[file:art/screenshot01_en.png]]
+
+** Features
+
+- Minimalist and lightweight: less than 100KB in size;
+- Clean design: easy-to-use interface;
+- Open source: no dependencies, no ads, no trackers.
+
+** Why Orientation Lock?
+
+When using an Android tablet, you might find that some applications do not support landscape mode or specific orientations. This was quite troublesome for me. I tried several screen orientation locking apps available on the market, but they were overloaded with features. I simply needed an app to lock the screen orientation, so I decided to create one myself.
+
+The principle behind locking the screen orientation is very simple: it involves using a floating window to render a view in a specified orientation. This is just a straightforward application, and I wanted to keep it lightweight. Therefore, I implemented it using native methods without any third-party libraries. Pretty cool, isn't it?
+
+** License
+
+#+begin_quote
+Copyright (C) 2024 Yafeng Tu
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#+end_quote

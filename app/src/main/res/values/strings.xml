@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orientation Lock</string>
+    <string name="orientation_dynamic">Dynamic</string>
+    <string name="orientation_default">Default</string>
+    <string name="orientation_full_sensor">Full sensor</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="orientation_reverse_landscape">Reverse landscape</string>
+    <string name="orientation_sensor_landscape">Sensor landscape</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_reverse_portrait">Reverse portrait</string>
+    <string name="orientation_sensor_portrait">Sensor portrait</string>
+    <string name="running_notification_channel_name">Running Notification</string>
+    <string name="running_notification_title">Orientation Lock is running</string>
+    <string name="running_notification_description">Orientation Lock is running for keeping the orientation</string>
+    <string name="permission_required">Please grant draw over apps permission</string>
+    <string name="about">About</string>
+</resources>

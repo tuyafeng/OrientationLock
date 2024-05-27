@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/ll_root"
+      android:paddingTop="16dp"
+      android:paddingBottom="16dp"
+      >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/orientation_dynamic"
+          style="@style/TitleStyle"
+          />
+
+      <ImageView
+          android:id="@+id/iv_about"
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:background="?android:selectableItemBackgroundBorderless"
+          android:contentDescription="@string/about"
+          android:src="@drawable/ic_info"
+          android:tint="?android:colorAccent"
+          android:layout_gravity="end|center_vertical"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginTop="2dp"
+          />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <TextView
+          android:id="@+id/tv_orientation_default"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_system"
+          android:text="@string/orientation_default"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <TextView
+          android:id="@+id/tv_orientation_full_sensor"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_full_sensor"
+          android:text="@string/orientation_full_sensor"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <Space
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_weight="1"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orientation_landscape"
+        style="@style/TitleStyle"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <TextView
+          android:id="@+id/tv_orientation_landscape"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_landscape"
+          android:text="@string/orientation_landscape"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <TextView
+          android:id="@+id/tv_orientation_reverse_landscape"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_reverse_landscape"
+          android:text="@string/orientation_reverse_landscape"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <TextView
+          android:id="@+id/tv_orientation_sensor_landscape"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_sensor_landscape"
+          android:text="@string/orientation_sensor_landscape"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orientation_portrait"
+        style="@style/TitleStyle"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <TextView
+          android:id="@+id/tv_orientation_portrait"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_portrait"
+          android:text="@string/orientation_portrait"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <TextView
+          android:id="@+id/tv_orientation_reverse_portrait"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_reverse_portrait"
+          android:text="@string/orientation_reverse_portrait"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+      <TextView
+          android:id="@+id/tv_orientation_sensor_portrait"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/ic_rotate_sensor_portrait"
+          android:text="@string/orientation_sensor_portrait"
+          android:layout_weight="1"
+          style="@style/ItemStyle"
+          />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</ScrollView>

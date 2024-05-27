@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">方向锁定</string>
+    <string name="orientation_dynamic">动态</string>
+    <string name="orientation_default">默认</string>
+    <string name="orientation_full_sensor">传感器方向</string>
+    <string name="orientation_landscape">横屏</string>
+    <string name="orientation_reverse_landscape">反转横屏</string>
+    <string name="orientation_sensor_landscape">传感器横屏</string>
+    <string name="orientation_portrait">竖屏</string>
+    <string name="orientation_reverse_portrait">反转竖屏</string>
+    <string name="orientation_sensor_portrait">传感器竖屏</string>
+    <string name="running_notification_channel_name">运行通知</string>
+    <string name="running_notification_title">方向锁定正在运行中</string>
+    <string name="running_notification_description">方向锁定正在运行以保持屏幕方向</string>
+    <string name="permission_required">请允许在其他应用上层显示权限</string>
+    <string name="about">关于</string>
+</resources>
